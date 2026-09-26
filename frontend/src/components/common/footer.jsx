@@ -36,8 +36,8 @@ export default function Footer() {
           <div>
             <h4 className="font-[600] text-[#1d1d1f] mb-3">Black Berry Store</h4>
             <ul className="space-y-2">
-              <li><a   className="hover:underline">Find a Store</a></li>
-              <li><a   className="hover:underline">Financing</a></li>
+              <li><button type="button" className="hover:underline">Find a Store</button></li>
+<li><button type="button" className="hover:underline">Financing</button></li>
             </ul>
           </div>
         </div>
@@ -45,9 +45,9 @@ export default function Footer() {
         <div className="pt-4 flex flex-col md:flex-row justify-between items-center text-[#707070]">
           <p>Copyright © 2026 Black Berry Inc. All rights reserved.</p>
           <div className="flex space-x-4 mt-2 md:mt-0">
-            <a   className="hover:underline">Privacy Policy</a>
-            <a   className="hover:underline">Terms of Use</a>
-            <a   className="hover:underline">Sales Policy</a>
+           <button type="button" className="hover:underline">Privacy Policy</button>
+<button type="button" className="hover:underline">Terms of Use</button>
+<button type="button" className="hover:underline">Sales Policy</button>
           </div>
         </div>
 

@@ -99,10 +99,10 @@ e.preventDefault();
                       Remember me
                     </label>
 
-                    <a  
-                      className="ml-auto text-sm font-[600] text-[#2997ff] hover:underline">
-                      Forgot password?
-                    </a>
+                    <button type="button"
+  className="ml-auto text-sm font-[600] text-[#2997ff] hover:underline">
+  Forgot password?
+</button>
                   </div>
 
                   <button type="submit"

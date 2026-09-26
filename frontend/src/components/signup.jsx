@@ -112,10 +112,10 @@ function handleclick(evt) {
                      I accept the
                   </label>
 
-                  <a  
-                     className="text-sm font-[600] text-[#2997ff] hover:underline">
-                     Terms and Conditions
-                  </a>
+                  <button type="button"
+   className="text-sm font-[600] text-[#2997ff] hover:underline">
+   Terms and Conditions
+</button>
                </div>
 
                <button onClick={handleclick} type="submit"
