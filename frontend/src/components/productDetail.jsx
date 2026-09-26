@@ -1,7 +1,7 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState, useMemo } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import axios from 'axios';
-import { React , useMemo } from 'react';
+
 import { getProduct } from '../data/products';
 import { useCart } from '../context/CartContext';
 import { ensureProductColors, formatRupees } from '../utils/productDisplay';
