@@ -7,7 +7,7 @@ import Nav from "./common/nav"
 import Footer from "./common/footer"
 import { ADMIN_UID } from "./adminRoute"
 
-const API_BASE_URL = "http://localhost:5000/api"
+const API_BASE_URL = `process.env.${REACT_APP_API_URL}/api`
 
 function Login(){
 
