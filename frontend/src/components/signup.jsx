@@ -112,7 +112,7 @@ function handleclick(evt) {
                      I accept the
                   </label>
 
-                  <a href=""
+                  <a  
                      className="text-sm font-[600] text-[#2997ff] hover:underline">
                      Terms and Conditions
                   </a>
