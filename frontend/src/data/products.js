@@ -247,7 +247,7 @@ const productCatalog = [
     reviews: 63,
     colors: ["#F5F5F7"],
     variants: ["4.5 cu.ft", "5.2 cu.ft"],
-    image: applImages1,
+    image: applImages,
     description:
       "Deep-clean cycles that use less water and less time, with a drum designed to be gentle on every fabric you own.",
     specs: [
@@ -270,7 +270,7 @@ const productCatalog = [
     reviews: 47,
     colors: ["#C6C7CC", "#1D1D1F"],
     variants: ["24 cu.ft", "28 cu.ft"],
-    image: applImages,
+    image: applImages1,
     description:
       "Smart cooling that adapts to what's inside, a quiet compressor, and a layout designed around how families actually shop and cook.",
     specs: [
