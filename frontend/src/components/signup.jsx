@@ -6,7 +6,7 @@ import axios from "axios"
 import Nav from "./common/nav"
 import Footer from "./common/footer"
 
-const API_BASE_URL = `${REACT_APP_API_URL}/api`
+const API_BASE_URL = process.env.REACT_APP_API_URL/api
 
 
 
