@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { useParams, Link } from "react-router-dom";
-import { ChevronDown } from "lucide-react";
+
 import ProductCard from "./common/productCard";
 import Reveal from "./common/reveal";
 import { categories, products, getCategory } from "../data/products";

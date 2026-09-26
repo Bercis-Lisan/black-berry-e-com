@@ -3,7 +3,7 @@ import {
   Tv,
   Laptop,
   Watch,
-  Headphones,
+  
   Refrigerator,
 } from "lucide-react";
 import { ensureProductColors } from "../utils/productDisplay";

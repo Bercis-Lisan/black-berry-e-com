@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import axios from 'axios';
+import React, { useEffect, useMemo, useState } from 'react';
 import { getProduct } from '../data/products';
 import { useCart } from '../context/CartContext';
 import { ensureProductColors, formatRupees } from '../utils/productDisplay';
@@ -45,13 +46,16 @@ export default function ProductDetail() {
 
   const product = catalogProduct || databaseProduct;
   const variantOptions = product?.variants?.length ? product.variants : ['Standard'];
-  const availableColors = ensureProductColors(product?.colors);
+  const availableColors = useMemo(
+  () => ensureProductColors(product?.colors),
+  [product]
+);
   const [selectedStorage, setSelectedStorage] = useState('');
   const [selectedColor, setSelectedColor] = useState('');
 
   useEffect(() => {
-    setSelectedColor(availableColors[0]);
-  }, [id, product]);
+  setSelectedColor(availableColors[0]);
+}, [id, product, availableColors]);
 
   const handleAdd = () => {
     if (!product) return;
