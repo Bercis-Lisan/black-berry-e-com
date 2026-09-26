@@ -5,7 +5,7 @@ import { getProduct } from '../data/products';
 import { useCart } from '../context/CartContext';
 import { ensureProductColors, formatRupees } from '../utils/productDisplay';
 
-const API_BASE_URL = `process.env.${REACT_APP_API_URL}/api`;
+const API_BASE_URL = `${REACT_APP_API_URL}/api`;
 
 export default function ProductDetail() {
   const { id } = useParams();
