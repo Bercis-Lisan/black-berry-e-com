@@ -7,7 +7,7 @@ import Reveal from "./common/reveal";
 import { categories, products, getCategory } from "../data/products";
 import { ensureProductColors } from "../utils/productDisplay";
 
-const API_BASE_URL = process.env.REACT_APP_API_URL/api;
+const API_BASE_URL = `${process.env.REACT_APP_API_URL}/api`;
 
 function Products() {
   const { category } = useParams();

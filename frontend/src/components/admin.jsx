@@ -17,7 +17,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { formatRupees } from '../utils/productDisplay';
 
-const API_BASE_URL = process.env.REACT_APP_API_URL/api;
+const API_BASE_URL = `${process.env.REACT_APP_API_URL}/api`;
 const MAX_IMAGE_SIZE = 3 * 1024 * 1024;
 const emptyForm = {
   name: '',

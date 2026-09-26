@@ -6,7 +6,7 @@ import { useAuth } from '../context/AuthContext';
 import { formatRupees } from '../utils/productDisplay';
 
 // Update this to your deployed backend URL when you go live
-const API_BASE_URL = process.env.REACT_APP_API_URL/api/payment;
+const API_BASE_URL = `${process.env.REACT_APP_API_URL}/api/payment`;
 
 function loadRazorpayScript() {
   return new Promise((resolve) => {
